@@ -4,7 +4,7 @@ const { addPremium, deletePremium, tokens, checkPremium, changeKey, resetOneLimi
 const { isAuthenticated } = require('../lib/auth');
 const { limitCount } = require('../lib/settings');
 const router = express.Router();
-myusername = 'RiczXD'
+myusername = 'Bener'
 router.get('/', isAuthenticated, async (req, res) => {
     let { username } = req.user
     if (username !== myusername) return res.redirect('/docs')
