@@ -322,7 +322,7 @@
     "moment-duration-format": "^2.3.2",
     "moment-timezone": "latest",
     "mongodb": "^6.12.0",
-    "mongoose": "^8.6.1",
+    "mongoose": "^8.9.5",
     "monk": "^7.3.3",
     "monk-middleware-cast-ids": "^0.2.1",
     "monk-middleware-fields": "^0.2.0",
