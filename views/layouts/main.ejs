@@ -131,6 +131,12 @@ document.getElementById("visitor").textContent = data.value
           xhr.send();
 }
 </script>
+<script>
+		$.getJSON("https://api.ipify.org?format=json",
+		function(data) {
+			$("#ipaddres").html(data.ip)
+			})
+			</script>
 <script type="text/javascript">
                     $(document).ready(function() {
                         $(".loading").delay(2000).fadeOut(500, "linear");
