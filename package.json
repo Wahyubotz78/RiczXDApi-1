@@ -494,7 +494,7 @@
     "type-check": "^0.3.2",
     "type-is": "^1.6.18",
     "unbzip2-stream": "^1.4.3",
-    "undici": "latest",
+    "undici": "^7.2.3",
     "uniq": "^1.0.1",
     "universalify": "^0.1.2",
     "unpipe": "^1.0.0",
